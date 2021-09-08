@@ -1,0 +1,41 @@
+img{
+   
+    width: 200px;
+    border-radius: 4px;
+  
+}
+h1{
+    font-family: cursive;
+    color: #264653;
+    font-weight: bolder;
+}
+hr{
+    border: 2px solid;
+    border-radius: 50px;
+}
+h3{
+    font-family: cursive;
+    color: #264653;
+    font-weight: bold;
+}
+ p{
+     color: #dcc06a;
+     font-family: cursive;
+ }
+ a{
+     color: teal;
+ }
+ table,td{
+    padding-right: 40px;
+ }
+ th{
+    font-family: cursive;
+    color: #264653;
+    font-weight: bolder;
+ }
+ td{
+     font-family: cursive;
+     color: #dcc06a;
+    
+ }
+ 

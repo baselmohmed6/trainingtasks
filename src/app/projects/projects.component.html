@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 md-4 sm-6 xs-12"
+    *ngFor="let project of projects">
+            <div class="card text-center">
+                <div class="card-header">
+                  Project: {{project.title}}
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, impedit rerum provident porro consectetur magnam non odit vero sunt ex natus ipsam tempora beatae cum hic quia accusantium assumenda quis.</p>
+                  <a routerLink="#" class="btn">Show full Project</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

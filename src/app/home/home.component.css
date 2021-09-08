@@ -1,0 +1,27 @@
+.card{
+    background-color: #2a9d8f;
+    font-family: cursive;
+    width:500px !important;
+
+}
+img{
+    padding: 30px;
+    width: 500px;
+    border-radius: 4px;
+    margin: auto;
+}
+.card-title
+{
+    font-weight: bolder;
+}
+.btn{
+    background-color: #2a9d8f;
+    border-color: #f4a261;
+    color:#f4a261 ;
+    font-family: cursive; margin: 10px;;
+}
+.btn:hover{
+    color: #2a9d8f;
+    background-color: #f4a261;
+   
+}

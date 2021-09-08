@@ -1,0 +1,35 @@
+
+   <div class="container text-center">
+    <img src="assets/img/1271393.png" alt="" srcset="">
+    <h2>Contact Us</h2>
+    <hr>
+    </div>
+<section class="contact container p-4 pl-4">
+    <form class="container" (ngSubmit)="onUserSubmitForm()">
+<div class="row">
+    <div class="col-md-8 col-md-offset-4 mx-auto">
+        <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" placeholder="ex:Basel" class="form-control" [(ngModel)]="name">
+        </div></div>
+        <div class="col-md-8 col-md-offset-4 mx-auto p-3">
+            <div class="form-group">
+                <label for="name">Email : </label>
+                <input type="text" name="Email" placeholder="ex:basel@gmail.com" class="form-control" [(ngModel)]="email" >
+            </div></div>
+            <div class="col-md-8 col-md-offset-4 mx-auto p-3">
+                <div class="form-group">
+                    <label for="name">phone : </label>
+                    <input type="number" name="number" placeholder="ex:0120202033" class="form-control" [(ngModel)]="phone">
+                </div></div>
+                <div class="col-md-8 col-md-offset-4 mx-auto p-3">
+                    <div class="form-group">
+                        <label for="name">Message : </label>
+                        <textarea name="textarea" id="" class="form-control" placeholder="Your Message" [(ngModel)]="message"></textarea>
+                    </div></div>
+                    <div class="col-md-8 col-md-offset-4 mx-auto p-3 text-center">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+                    </div>
+    </form>
+</section>

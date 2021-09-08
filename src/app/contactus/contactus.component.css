@@ -1,0 +1,25 @@
+label{
+    font-family: cursive;
+    color: #264653;
+    font-weight: bold;
+}
+h2{
+    font-family: cursive;
+    color: #264653;
+    font-weight: bolder;
+}
+img{
+   
+    width: 200px;
+    border-radius: 4px;
+    
+}
+hr{
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    color: white;
+  
+}
