@@ -1,0 +1,80 @@
+///////////////////////////////////////////////////////////////////////////////Question 1///////////////////////////////////////////////////////////
+// function sum(object)
+// {
+ //     sum=0;
+ //     for( var x in object)
+ //     {
+ //         if(object.hasOwnProperty(x))
+ //         {
+ //             sum+=parseFloat(object[x])
+//         }
+ //     }
+ //     return  sum;
+
+ // }
+ // let sums={first:5,
+ //         second:6,
+ //         third:5,
+ //         fourth:10}
+// console.log("The sum : "+sum(sums));
+///////////////////////////////////////////////////////////////////////////////Question 2///////////////////////////////////////////////////////////
+// setTimeout(() => {
+//     console.log("Basel")
+// }, 5000);
+// setTimeout(() => {
+//     console.log("Hey")
+// }, 1000);
+// setTimeout(() => {
+//     console.log("my name is ")
+// }, 3000);
+///////////////////////////////////////////////////////////////////////////////Question 3///////////////////////////////////////////////////////////
+
+// var currentDate= new Date();
+// var hour=currentDate.getHours();
+// var minutes=currentDate.getMinutes();
+// var AmandPm="";
+// if(hour<12)
+// {
+//     AmandPm="Am"
+// }
+// else
+// {
+
+//     hour= parseInt(hour, 10) + 12;
+//     AmandPm="Pm"
+   
+// }
+// console.log(hour+":"+minutes+AmandPm);
+///////////////////////////////////////////////////////////////////////////////Question 5///////////////////////////////////////////////////////////
+// var array=[5,6,8,10,4,5];
+// var max=array[0];
+// var maxindex=0;
+// for(var i=0;i<array.length;i++)
+// {
+// if(array[i] > max) 
+// {
+//     maxindex = i;
+//     max = array[i];
+// }
+// }
+// console.log("the max index is :"+maxindex);
+///////////////////////////////////////////////////////////////////////////////Bonus///////////////////////////////////////////////////////////
+// var add =function(num1)
+// {
+//     return function(num2)
+//     {
+//         return num1+num2;
+//     };
+// }
+// console.log(add(7)(4));
+///////////////////////////////////////////////////////////////////////////////Bonus///////////////////////////////////////////////////////////
+const cjohn = ["john", "basel","mike"];
+
+
+
+function checkjohn(j) 
+{
+  return j="john";
+ 
+}
+ console.log(cjohn.some(checkjohn)  );

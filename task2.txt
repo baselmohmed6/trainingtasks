@@ -1,0 +1,32 @@
+1:console.log(typeof typeof 1);:String
+
+2:Not a number and its type is number,by using a built in function isNaN()
+
+3:The event loop is the secret behind JavaScript’s asynchronous programming.
+
+4:it can be defind is the ability of the message to be designed in different form 
+and it helps in the reusing of codes 
+
+
+question 5
+1-undefined
+2)
+3
+1
+2
+4
+5
+
+bonus
+1)
+var add =function(num1)
+{
+    return function(num2)
+    {
+        return num1+num2;
+    };
+}
+console.log(add(7)(4));
+
+2)
+by using arr.some
